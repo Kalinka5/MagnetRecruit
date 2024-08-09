@@ -42,7 +42,7 @@ function NavBar() {
         <div className="flex justify-between items-center px-2 md:px-10 w-full">
           <a href="/">
             <img
-              alt="image"
+              alt="Logo"
               srcSet="_next/image?url=%252Fimage%252Flogo.png&amp;w=384&amp;q=75amp;q_next/image?url=%252Fimage%252Flogo.png&amp;w=750&amp;q=75p;w=750&amp;q=75 2x"
               src={logo}
               width="350"

@@ -19,6 +19,7 @@ function ContactUs() {
                   height: "100vh",
                   width: "100vw",
                 }}
+                alt="Candidates"
               />
               <svg
                 id="wwrtopsvg"

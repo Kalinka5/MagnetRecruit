@@ -28,6 +28,7 @@ function WhoWeAre() {
                   height: "100vh",
                   width: "100vw",
                 }}
+                alt="WhoWeAre"
               />
               <svg
                 id="wwrtopsvg"
@@ -70,7 +71,7 @@ function WhoWeAre() {
               <div className="item-center">
                 <div className="flex justify-center mx-auto">
                   <img
-                    alt="image"
+                    alt="Human1"
                     srcSet="_next/image?url=%252Fimage%252Fperson1.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fperson1.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
                     src={human1}
                     width="250"
@@ -156,7 +157,7 @@ function WhoWeAre() {
               <div className="item-center">
                 <div className="flex justify-center mx-auto">
                   <img
-                    alt="image"
+                    alt="Human2"
                     srcSet="_next/image?url=%252Fimage%252Fperson2.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fperson2.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
                     src={human2}
                     width="250"
@@ -245,7 +246,7 @@ function WhoWeAre() {
               <div className="item-center mt-20">
                 <div className="flex justify-center mx-auto">
                   <img
-                    alt="image"
+                    alt="Woman1"
                     srcSet="_next/image?url=%252Fimage%252Fwoman1.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fwoman1.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
                     src={woman1}
                     width="250"
@@ -327,7 +328,7 @@ function WhoWeAre() {
               <div className="item-center mt-20">
                 <div className="flex justify-center mx-auto">
                   <img
-                    alt="image"
+                    alt="Woman2"
                     srcSet="_next/image?url=%252Fimage%252Fwoman2.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fwoman2.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
                     src={woman2}
                     width="250"
@@ -540,7 +541,7 @@ function WhoWeAre() {
                 </h1>
                 <div className="flex justify-center rotate-180">
                   <img
-                    alt="image"
+                    alt="DownArrow"
                     src={downArrow}
                     width="100"
                     height="1"
@@ -565,7 +566,7 @@ function WhoWeAre() {
                 <div className="grid place-content-center mx-auto">
                   <div className="flex justify-center py-14">
                     <img
-                      alt="image"
+                      alt="Mr"
                       srcSet="_next/image?url=%252Fimage%252FMr.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252FMr.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
                       src={Mr}
                       width="250"
@@ -590,7 +591,7 @@ function WhoWeAre() {
               <div className="grid">
                 <div className="flex justify-center">
                   <img
-                    alt="image"
+                    alt="DownArrow"
                     src={downArrow}
                     width="100"
                     height="50"
@@ -611,7 +612,7 @@ function WhoWeAre() {
                 </h1>
                 <div className="flex justify-center rotate-90">
                   <img
-                    alt="image"
+                    alt="DownArrow"
                     src={downArrow}
                     width="100"
                     height="50"
