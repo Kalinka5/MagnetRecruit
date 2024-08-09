@@ -1,4 +1,4 @@
-import { AiOutlineComment } from "react-icons/ai";
+// import { AiOutlineComment } from "react-icons/ai";
 
 import whoweare from "./bg/whoweare.gif";
 
@@ -21,6 +21,7 @@ function SearchJob() {
                   height: "100vh",
                   width: "100vw",
                 }}
+                alt="WhoWeAre"
               />
               <svg
                 id="wwrtopsvg"
@@ -91,10 +92,10 @@ function SearchJob() {
                       className="shadow- flex my-4 px-4 p-2 rounded-sm hover:bg-[#fca311] hover:text-white uppercase bg-slate-200 shadow-slate-400 shadow-lg"
                       href="https://t.me/magnetuk"
                     >
-                      <AiOutlineComment
+                      {/* <AiOutlineComment
                         className="mx-2 my-auto"
                         style={{ fontSize: "25px" }}
-                      />
+                      /> */}
                       Связаться С Нами
                     </a>
                   </div>

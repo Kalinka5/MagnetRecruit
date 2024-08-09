@@ -173,7 +173,7 @@ function Home() {
                   </div>
                   <div className="w-full justify-center items-center">
                     <img
-                      alt="image"
+                      alt="Location"
                       srcSet="
                       _next/image?url=%252Fimage%252Flocation.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Flocation.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x
                     "
@@ -218,7 +218,7 @@ function Home() {
                     className="fill-[#13213d]"
                   >
                     <path
-                      transform="scale(1,-1) tanslate(0, -100)"
+                      transform="scale(1,-1) translate(0, -100)"
                       className="elementor-shape-fill"
                       d="M761.9,44.1L643.1,27.2L333.8,98L0,3.8V0l1000,0v3.9"
                     ></path>
@@ -230,7 +230,7 @@ function Home() {
                       <div className="items-center justify-center py-4 mb-8 mx-auto">
                         <div className="flex justify-center">
                           <img
-                            alt="image"
+                            alt="Bag"
                             srcSet="
                             _next/image?url=%252Fimage%252Fbag.png&amp;w=96&amp;q=75amp;q_next/image?url=%252Fimage%252Fbag.png&amp;w=256&amp;q=75p;w=256&amp;q=75 2x
                           "
@@ -254,7 +254,7 @@ function Home() {
                       <div className="items-center">
                         <div className="flex justify-center">
                           <img
-                            alt="image"
+                            alt="Search"
                             srcSet="
                             _next/image?url=%252Fimage%252Fsearch.png&amp;w=96&amp;q=75amp;q_next/image?url=%252Fimage%252Fsearch.png&amp;w=256&amp;q=75p;w=256&amp;q=75 2x
                           "
@@ -279,7 +279,7 @@ function Home() {
                       <div className="items-center py-4 mx-auto mb-8">
                         <div className="flex justify-center">
                           <img
-                            alt="image"
+                            alt="Arrow"
                             srcSet="
                             _next/image?url=%252Fimage%252Farrow.png&amp;w=96&amp;q=75amp;q_next/image?url=%252Fimage%252Farrow.png&amp;w=256&amp;q=75p;w=256&amp;q=75 2x
                           "
@@ -303,7 +303,7 @@ function Home() {
                       <div className="items-center">
                         <div className="flex justify-center">
                           <img
-                            alt="image"
+                            alt="Nots"
                             srcSet="
                             _next/image?url=%252Fimage%252Fnots.png&amp;w=96&amp;q=75amp;q_next/image?url=%252Fimage%252Fnots.png&amp;w=256&amp;q=75p;w=256&amp;q=75 2x
                           "

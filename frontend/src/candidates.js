@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { AiOutlineComment } from "react-icons/ai";
+// import { AiOutlineComment } from "react-icons/ai";
 
 import candidates from "./bg/candidates.gif";
 import chairs from "./_next/chairs.JPG";
@@ -140,6 +140,7 @@ function Candidates() {
                   height: "100vh",
                   width: "100vw",
                 }}
+                alt="Candidates"
               />
               <svg
                 id="wwrtopsvg"
@@ -202,7 +203,7 @@ function Candidates() {
             <div className="grid md:grid-cols-2 md:w-[980px] m-auto">
               <div className="py-20 flex mx-auto">
                 <img
-                  alt="image"
+                  alt="Chairs"
                   srcSet="_next/image?url=%252Fimage%252Fchairs.JPG&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fchairs.JPG&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
                   src={chairs}
                   width="400"
@@ -245,7 +246,7 @@ function Candidates() {
                                   <svg
                                     stroke="currentColor"
                                     fill="currentColor"
-                                    stroke-width="0"
+                                    strokeWidth="0"
                                     viewBox="0 0 24 24"
                                     height="1em"
                                     width="1em"
@@ -299,7 +300,7 @@ function Candidates() {
                                   <svg
                                     stroke="currentColor"
                                     fill="currentColor"
-                                    stroke-width="0"
+                                    strokeWidth="0"
                                     viewBox="0 0 24 24"
                                     height="1em"
                                     width="1em"
@@ -353,7 +354,7 @@ function Candidates() {
                                   <svg
                                     stroke="currentColor"
                                     fill="currentColor"
-                                    stroke-width="0"
+                                    strokeWidth="0"
                                     viewBox="0 0 24 24"
                                     height="1em"
                                     width="1em"
@@ -407,7 +408,7 @@ function Candidates() {
                                   <svg
                                     stroke="currentColor"
                                     fill="currentColor"
-                                    stroke-width="0"
+                                    strokeWidth="0"
                                     viewBox="0 0 24 24"
                                     height="1em"
                                     width="1em"
@@ -456,7 +457,7 @@ function Candidates() {
             <div className="py-12 md:w-[900px] grid md:grid-cols-5 mx-auto">
               <div className="justify-center w-44 mx-auto">
                 <img
-                  alt="image"
+                  alt="Bag"
                   srcSet="_next/image?url=%252Fimage%252Fbag.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fbag.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
                   src={bag}
                   width="150"
@@ -481,7 +482,7 @@ function Candidates() {
               </div>
               <div className="justify-center w-44 mx-auto">
                 <img
-                  alt="image"
+                  alt="Location"
                   srcSet="_next/image?url=%252Fimage%252Flocation.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Flocation.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
                   src={location}
                   width="150"
@@ -504,7 +505,7 @@ function Candidates() {
               </div>
               <div className="justify-center w-44 mx-auto">
                 <img
-                  alt="image"
+                  alt="Nots"
                   srcSet="_next/image?url=%252Fimage%252Fnots.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fnots.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
                   src={nots}
                   width="150"
@@ -527,7 +528,7 @@ function Candidates() {
               </div>
               <div className="justify-center w-44 mx-auto">
                 <img
-                  alt="image"
+                  alt="Search"
                   srcSet="_next/image?url=%252Fimage%252Fsearch.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fsearch.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
                   src={search}
                   width="150"
@@ -550,7 +551,7 @@ function Candidates() {
               </div>
               <div className="justify-center w-44 mx-auto">
                 <img
-                  alt="image"
+                  alt="Arrow"
                   srcSet="_next/image?url=%252Fimage%252Farrow.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Farrow.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
                   src={arrow}
                   width="150"
@@ -601,10 +602,10 @@ function Candidates() {
                 className="flex my-10 px-4 p-2 rounded-sm hover:bg-[#fca311] hover:text-white bg-slate-200"
                 href="https://t.me/magnetuk"
               >
-                <AiOutlineComment
+                {/* <AiOutlineComment
                   className="mx-2 my-auto"
                   style={{ fontSize: "25px" }}
-                />
+                /> */}
                 Перейти в телеграм
               </a>
             </div>

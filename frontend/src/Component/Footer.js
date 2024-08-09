@@ -10,7 +10,7 @@ function Footer() {
       <div className="w-full bg-[#14213d] font-sans">
         <div className="pt-10 md:w-[1240px] px-4 md:px-auto mx-auto">
           <img
-            alt="image"
+            alt="Logo"
             srcSet="_next/image?url=%252Fimage%252Flogo.png&amp;w=640&amp;q=100mp;q=_next/image?url=%252Fimage%252Flogo.png&amp;w=828&amp;q=100;w=828&amp;q=100 2x"
             src={logoQ100}
             width="400"
@@ -80,18 +80,18 @@ function Footer() {
                 >
                   <g
                     fill="#ffffff"
-                    fill-rule="nonzero"
+                    fillRule="nonzero"
                     stroke="none"
-                    stroke-width="1"
-                    stroke-linecap="butt"
-                    stroke-linejoin="miter"
-                    stroke-miterlimit="10"
-                    stroke-dasharray=""
-                    stroke-dashoffset="0"
-                    font-family="none"
-                    font-weight="none"
-                    font-size="none"
-                    text-anchor="none"
+                    strokeWidth="1"
+                    strokeLinecap="butt"
+                    strokeLinejoin="miter"
+                    strokeMiterlimit="10"
+                    strokeDasharray=""
+                    strokeDashoffset="0"
+                    fontFamily="none"
+                    fontWeight="none"
+                    fontSize="none"
+                    textAnchor="none"
                     style={{ mixBlendMode: "normal" }}
                   >
                     <g transform="scale(4,4)">
