@@ -240,7 +240,7 @@ function Candidates() {
                               <div className="flex justify-between">
                                 <div
                                   className={`order-last ease-in-out duration-150 text-white text-sm transform ${
-                                    isVisible1 ? "rotate-90" : ""
+                                    isVisible1 ? "svg-rotate-180" : ""
                                   }`}
                                 >
                                   <svg
@@ -294,7 +294,7 @@ function Candidates() {
                               <div className="flex justify-between">
                                 <div
                                   className={`order-last ease-in-out duration-150 text-white text-sm transform ${
-                                    isVisible2 ? "rotate-90" : ""
+                                    isVisible2 ? "svg-rotate-180" : ""
                                   }`}
                                 >
                                   <svg
@@ -348,7 +348,7 @@ function Candidates() {
                               <div className="flex justify-between">
                                 <div
                                   className={`order-last ease-in-out duration-150 text-white text-sm transform ${
-                                    isVisible3 ? "rotate-90" : ""
+                                    isVisible3 ? "svg-rotate-180" : ""
                                   }`}
                                 >
                                   <svg
@@ -402,7 +402,7 @@ function Candidates() {
                               <div className="flex justify-between">
                                 <div
                                   className={`order-last ease-in-out duration-150 text-white text-sm transform ${
-                                    isVisible4 ? "rotate-90" : ""
+                                    isVisible4 ? "svg-rotate-180" : ""
                                   }`}
                                 >
                                   <svg
