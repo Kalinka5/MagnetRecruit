@@ -528,7 +528,7 @@ function WhoWeAre() {
             </div>
             <div className="md:w-[900px] m-auto gap-10 hidden md:grid grid-cols-3 py-4">
               <div className="grid">
-                <h1 className="mt-40"></h1>
+                <h1 className="mt-40">g</h1>
                 <h1 className="text-[#fca311] tracking-wider text-justify capitalize font-bold">
                   04. Бесшовная обработка
                 </h1>
@@ -556,7 +556,7 @@ function WhoWeAre() {
                 <h1 className="text-[#fca311] tracking-wider font-bold capitalize">
                   01. Стратегическая консультация
                 </h1>
-                <h1 className="border-b-2 mt-10"></h1>
+                <h1 className="border-b-2 mt-10">g</h1>
                 <div className="grid place-content-center">
                   <h1 className="py-6 tracking-widest text-white text-sm">
                     Погрузиться в вашу компанию, культуру, ценности и роль
@@ -580,7 +580,7 @@ function WhoWeAre() {
                   <h1 className="text-[#fca311] tracking-wider font-bold mt-24 capitalize">
                     03. Тщательная оценка
                   </h1>
-                  <h1 className="border-b-2 pt-6"></h1>
+                  <h1 className="border-b-2 pt-6">g</h1>
                   <h1 className="py-6 tracking-widest text-white text-sm justify-center">
                     Тщательно проанализировать, составить короткий список и
                     представить наиболее актуальных кандидатов, упрощая путь к
@@ -604,7 +604,7 @@ function WhoWeAre() {
                 <h1 className="pt-16 text-[#fca311] font-bold capitalize">
                   02. Целевое ресурсное обеспечение
                 </h1>
-                <h1 className="border-b-2"></h1>
+                <h1 className="border-b-2">g</h1>
                 <h1 className="pt-10 text-sm text-white tracking-widest">
                   Обратитесь к нашим консультантам; понимание отрасли,
                   осведомленность о наличие кандидатов и обширная сеть для того
