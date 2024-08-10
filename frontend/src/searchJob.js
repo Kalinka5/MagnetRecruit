@@ -1,5 +1,3 @@
-// import { AiOutlineComment } from "react-icons/ai";
-
 import whoweare from "./bg/whoweare.gif";
 
 import NavBar from "./Component/NavBar";
@@ -92,10 +90,37 @@ function SearchJob() {
                       className="shadow- flex my-4 px-4 p-2 rounded-sm hover:bg-[#fca311] hover:text-white uppercase bg-slate-200 shadow-slate-400 shadow-lg"
                       href="https://t.me/magnetuk"
                     >
-                      {/* <AiOutlineComment
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="20"
+                        height="20"
+                        viewBox="0,0,256,256"
                         className="mx-2 my-auto"
                         style={{ fontSize: "25px" }}
-                      /> */}
+                      >
+                        <g
+                          fill="#203361"
+                          fillRule="nonzero"
+                          stroke="none"
+                          strokeWidth="1"
+                          strokeLinecap="butt"
+                          strokeLinejoin="miter"
+                          strokeMiterlimit="10"
+                          strokeDasharray=""
+                          strokeDashoffset="0"
+                          fontFamily="none"
+                          fontWeight="none"
+                          fontSize="none"
+                          textAnchor="none"
+                          style={{ mixBlendMode: "normal" }}
+                        >
+                          <g transform="scale(5.12,5.12)">
+                            <path d="M25,4c-12.68359,0 -23,8.97266 -23,20c0,6.1875 3.33594,12.06641 8.94922,15.83984c-0.13281,1.05078 -0.66406,3.60156 -2.76562,6.58594l-1.10547,1.56641l1.97656,0.00781c5.42969,0 9.10156,-3.32812 10.30859,-4.60547c1.83203,0.40234 3.72656,0.60547 5.63672,0.60547c12.68359,0 23,-8.97266 23,-20c0,-11.02734 -10.31641,-20 -23,-20z"></path>
+                          </g>
+                        </g>
+                      </svg>
                       Связаться С Нами
                     </a>
                   </div>
