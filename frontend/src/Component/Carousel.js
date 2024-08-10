@@ -78,7 +78,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-7.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-7.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img7} 1x, ${img7} 2x`}
                           src={img7}
                           width="400"
                           height="1"
@@ -104,7 +104,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-8.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-8.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img8} 1x, ${img8} 2x`}
                           src={img8}
                           width="400"
                           height="1"
@@ -130,7 +130,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-9.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-9.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img9} 1x, ${img9} 2x`}
                           src={img9}
                           width="400"
                           height="1"
@@ -156,7 +156,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-1.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-1.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img1} 1x, ${img1} 2x`}
                           src={img1}
                           width="400"
                           height="1"
@@ -182,7 +182,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-2.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-2.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img2} 1x, ${img2} 2x`}
                           src={img2}
                           width="400"
                           height="1"
@@ -208,7 +208,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-3.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-3.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img3} 1x, ${img3} 2x`}
                           src={img3}
                           width="400"
                           height="1"
@@ -234,7 +234,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-4.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-4.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img4} 1x, ${img4} 2x`}
                           src={img4}
                           width="400"
                           height="1"
@@ -260,7 +260,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-5.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-5.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img5} 1x, ${img5} 2x`}
                           src={img5}
                           width="400"
                           height="1"
@@ -286,7 +286,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-6.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-6.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img6} 1x, ${img6} 2x`}
                           src={img6}
                           width="400"
                           height="1"
@@ -312,7 +312,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-7.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-7.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img7} 1x, ${img7} 2x`}
                           src={img7}
                           width="400"
                           height="1"
@@ -338,7 +338,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-8.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-8.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img8} 1x, ${img8} 2x`}
                           src={img8}
                           width="400"
                           height="1"
@@ -364,7 +364,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-9.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-9.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img9} 1x, ${img9} 2x`}
                           src={img9}
                           width="400"
                           height="1"
@@ -390,7 +390,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-1.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-1.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img1} 1x, ${img1} 2x`}
                           src={img1}
                           width="400"
                           height="1"
@@ -416,7 +416,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-2.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-2.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img2} 1x, ${img2} 2x`}
                           src={img2}
                           width="400"
                           height="1"
@@ -442,7 +442,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-3.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-3.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img3} 1x, ${img3} 2x`}
                           src={img3}
                           width="400"
                           height="1"
@@ -468,7 +468,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-4.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-4.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img4} 1x, ${img4} 2x`}
                           src={img4}
                           width="400"
                           height="1"
@@ -494,7 +494,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-5.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-5.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img5} 1x, ${img5} 2x`}
                           src={img5}
                           width="400"
                           height="1"
@@ -520,7 +520,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-6.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-6.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img6} 1x, ${img6} 2x`}
                           src={img6}
                           width="400"
                           height="1"
@@ -546,7 +546,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-7.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-7.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img7} 1x, ${img7} 2x`}
                           src={img7}
                           width="400"
                           height="1"
@@ -572,7 +572,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-8.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-8.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img8} 1x, ${img8} 2x`}
                           src={img8}
                           width="400"
                           height="1"
@@ -598,7 +598,7 @@ function Carousel(props) {
                       >
                         <img
                           alt="/"
-                          srcSet="_next/image?url=%252Fimage%252Fimg-9.png&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fimg-9.png&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
+                          srcSet={`${img9} 1x, ${img9} 2x`}
                           src={img9}
                           width="400"
                           height="1"

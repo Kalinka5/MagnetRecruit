@@ -92,6 +92,7 @@ function Home() {
                   autoPlay
                   loop
                   muted
+                  playsInline
                   style={{
                     position: "absolute",
                     width: "100%",
