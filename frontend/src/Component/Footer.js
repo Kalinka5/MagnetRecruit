@@ -1,4 +1,5 @@
-import logoQ100 from "../_next/logo_q100.png";
+import logow640 from "../_next/logow640.png";
+import logow828 from "../_next/logow828.png";
 
 import MapComponent from "./Map";
 
@@ -11,8 +12,8 @@ function Footer() {
         <div className="pt-10 md:w-[1240px] px-4 md:px-auto mx-auto">
           <img
             alt="Logo"
-            srcSet="_next/image?url=%252Fimage%252Flogo.png&amp;w=640&amp;q=100mp;q=_next/image?url=%252Fimage%252Flogo.png&amp;w=828&amp;q=100;w=828&amp;q=100 2x"
-            src={logoQ100}
+            srcSet={`${logow640} 1x, ${logow828} 2x`}
+            src={logow828}
             width="400"
             height="80"
             decoding="async"

@@ -1,10 +1,15 @@
 import whoWeAre from "./bg/whoweare.gif";
-import human1 from "./_next/file1.png";
-import human2 from "./_next/file2.png";
-import woman1 from "./_next/file3.png";
-import woman2 from "./_next/file4.png";
 import downArrow from "./image/downarrow.svg";
-import Mr from "./_next/Mr.png";
+import human1w256 from "./_next/human1w256.png";
+import human1w640 from "./_next/human1w640.png";
+import human2w256 from "./_next/human2w256.png";
+import human2w640 from "./_next/human2w640.png";
+import human3w256 from "./_next/human3w256.png";
+import human3w640 from "./_next/human3w640.png";
+import human4w256 from "./_next/human4w256.png";
+import human4w640 from "./_next/human4w640.png";
+import Mrw256 from "./_next/Mrw256.png";
+import Mrw640 from "./_next/Mrw640.png";
 
 import NavBar from "./Component/NavBar";
 import Carousel from "./Component/Carousel";
@@ -72,8 +77,8 @@ function WhoWeAre() {
                 <div className="flex justify-center mx-auto">
                   <img
                     alt="Human1"
-                    srcSet="_next/image?url=%252Fimage%252Fperson1.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fperson1.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
-                    src={human1}
+                    srcSet={`${human1w256} 1x, ${human1w640} 2x`}
+                    src={human1w256}
                     width="250"
                     height="170"
                     decoding="async"
@@ -158,8 +163,8 @@ function WhoWeAre() {
                 <div className="flex justify-center mx-auto">
                   <img
                     alt="Human2"
-                    srcSet="_next/image?url=%252Fimage%252Fperson2.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fperson2.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
-                    src={human2}
+                    srcSet={`${human2w256} 1x, ${human2w640} 2x`}
+                    src={human2w256}
                     width="250"
                     height="200"
                     decoding="async"
@@ -246,9 +251,9 @@ function WhoWeAre() {
               <div className="item-center mt-20">
                 <div className="flex justify-center mx-auto">
                   <img
-                    alt="Woman1"
-                    srcSet="_next/image?url=%252Fimage%252Fwoman1.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fwoman1.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
-                    src={woman1}
+                    alt="Human3"
+                    srcSet={`${human3w256} 1x, ${human3w640} 2x`}
+                    src={human3w256}
                     width="250"
                     height="200"
                     decoding="async"
@@ -328,9 +333,9 @@ function WhoWeAre() {
               <div className="item-center mt-20">
                 <div className="flex justify-center mx-auto">
                   <img
-                    alt="Woman2"
-                    srcSet="_next/image?url=%252Fimage%252Fwoman2.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fwoman2.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
-                    src={woman2}
+                    alt="Human4"
+                    srcSet={`${human4w256} 1x, ${human4w640} 2x`}
+                    src={human4w256}
                     width="250"
                     height="200"
                     decoding="async"
@@ -567,8 +572,8 @@ function WhoWeAre() {
                   <div className="flex justify-center py-14">
                     <img
                       alt="Mr"
-                      srcSet="_next/image?url=%252Fimage%252FMr.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252FMr.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x"
-                      src={Mr}
+                      srcSet={`${Mrw256} 1x, ${Mrw640} 2x`}
+                      src={Mrw640}
                       width="250"
                       height="150"
                       decoding="async"

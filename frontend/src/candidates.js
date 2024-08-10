@@ -3,12 +3,18 @@ import React, { useEffect, useState } from "react";
 // import { AiOutlineComment } from "react-icons/ai";
 
 import candidates from "./bg/candidates.gif";
-import chairs from "./_next/chairs.JPG";
-import bag from "./_next/bag.png";
-import location from "./_next/location.png";
-import nots from "./_next/nots.png";
-import search from "./_next/search.png";
-import arrow from "./_next/arrow.png";
+import chairsw640 from "./_next/chairsw640.JPG";
+import chairsw828 from "./_next/chairsw828.JPG";
+import bagw256 from "./_next/bagw256.png";
+import bagw384 from "./_next/bagw384.png";
+import locationw256 from "./_next/locationw256.png";
+import locationw384 from "./_next/locationw384.png";
+import notsw256 from "./_next/notsw256.png";
+import notsw384 from "./_next/notsw384.png";
+import searchw256 from "./_next/searchw256.png";
+import searchw384 from "./_next/searchw384.png";
+import arroww256 from "./_next/arroww256.png";
+import arroww384 from "./_next/arroww384.png";
 
 import NavBar from "./Component/NavBar";
 import Carousel from "./Component/Carousel";
@@ -204,8 +210,8 @@ function Candidates() {
               <div className="py-20 flex mx-auto">
                 <img
                   alt="Chairs"
-                  srcSet="_next/image?url=%252Fimage%252Fchairs.JPG&amp;w=640&amp;q=75amp;q_next/image?url=%252Fimage%252Fchairs.JPG&amp;w=828&amp;q=75p;w=828&amp;q=75 2x"
-                  src={chairs}
+                  srcSet={`${chairsw640} 1x, ${chairsw828} 2x`}
+                  src={chairsw828}
                   width="400"
                   height="200"
                   decoding="async"
@@ -458,8 +464,8 @@ function Candidates() {
               <div className="justify-center w-44 mx-auto">
                 <img
                   alt="Bag"
-                  srcSet="_next/image?url=%252Fimage%252Fbag.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fbag.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
-                  src={bag}
+                  srcSet={`${bagw256} 1x, ${bagw384} 2x`}
+                  src={bagw384}
                   width="150"
                   height="100"
                   decoding="async"
@@ -483,8 +489,8 @@ function Candidates() {
               <div className="justify-center w-44 mx-auto">
                 <img
                   alt="Location"
-                  srcSet="_next/image?url=%252Fimage%252Flocation.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Flocation.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
-                  src={location}
+                  srcSet={`${locationw256} 1x, ${locationw384} 2x`}
+                  src={locationw384}
                   width="150"
                   height="100"
                   decoding="async"
@@ -506,8 +512,8 @@ function Candidates() {
               <div className="justify-center w-44 mx-auto">
                 <img
                   alt="Nots"
-                  srcSet="_next/image?url=%252Fimage%252Fnots.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fnots.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
-                  src={nots}
+                  srcSet={`${notsw256} 1x, ${notsw384} 2x`}
+                  src={notsw384}
                   width="150"
                   height="100"
                   decoding="async"
@@ -529,8 +535,8 @@ function Candidates() {
               <div className="justify-center w-44 mx-auto">
                 <img
                   alt="Search"
-                  srcSet="_next/image?url=%252Fimage%252Fsearch.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Fsearch.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
-                  src={search}
+                  srcSet={`${searchw256} 1x, ${searchw384} 2x`}
+                  src={searchw384}
                   width="150"
                   height="100"
                   decoding="async"
@@ -552,8 +558,8 @@ function Candidates() {
               <div className="justify-center w-44 mx-auto">
                 <img
                   alt="Arrow"
-                  srcSet="_next/image?url=%252Fimage%252Farrow.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Farrow.png&amp;w=384&amp;q=75p;w=384&amp;q=75 2x"
-                  src={arrow}
+                  srcSet={`${arroww256} 1x, ${arroww384} 2x`}
+                  src={arroww384}
                   width="150"
                   height="100"
                   decoding="async"

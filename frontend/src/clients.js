@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 import clients from "./bg/client.gif";
-import manLocate from "./_next/manlocate.png";
+import manLocatew64 from "./_next/manlocatew64.png";
+import manLocatew128 from "./_next/manlocatew128.png";
 
 import NavBar from "./Component/NavBar";
 import Carousel from "./Component/Carousel";
@@ -204,8 +205,8 @@ function Clients() {
                         <div className="flex justify-center py-4">
                           <img
                             alt="ManLocate"
-                            srcSet="_next/image?url=%252Fimage%252Fmanlocate.png&amp;w=64&amp;q=75amp;q_next/image?url=%252Fimage%252Fmanlocate.png&amp;w=128&amp;q=75p;w=128&amp;q=75 2x"
-                            src={manLocate}
+                            srcSet={`${manLocatew64} 1x, ${manLocatew128} 2x`}
+                            src={manLocatew128}
                             width="50"
                             height="50"
                             decoding="async"

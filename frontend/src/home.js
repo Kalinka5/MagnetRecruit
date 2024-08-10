@@ -3,11 +3,16 @@ import Typewriter from "typewriter-effect";
 import { useEffect, useState } from "react";
 
 import video from "./image/bgvid.mp4";
-import location from "./_next/locationQ75.png";
-import bag from "./_next/bagQ75.png";
-import search from "./_next/searchQ75.png";
-import arrow from "./_next/arrowQ75.png";
-import nots from "./_next/notsQ75.png";
+import locationw256 from "./_next/locationw256.png";
+import locationw640 from "./_next/locationw640.png";
+import bagw96 from "./_next/bagw96.png";
+import bagw256 from "./_next/bagw256.png";
+import searchw96 from "./_next/searchw96.png";
+import searchw256 from "./_next/searchw256.png";
+import arroww96 from "./_next/arroww96.png";
+import arroww256 from "./_next/arroww256.png";
+import notsw96 from "./_next/notsw96.png";
+import notsw256 from "./_next/notsw256.png";
 
 import NavBar from "./Component/NavBar";
 import Testimonials from "./Component/Testimonials";
@@ -90,6 +95,7 @@ function Home() {
                   style={{
                     position: "absolute",
                     width: "100%",
+                    height: "100%",
                     objectFit: "cover",
                     zIndex: "-1",
                   }}
@@ -174,10 +180,8 @@ function Home() {
                   <div className="w-full justify-center items-center">
                     <img
                       alt="Location"
-                      srcSet="
-                      _next/image?url=%252Fimage%252Flocation.png&amp;w=256&amp;q=75amp;q_next/image?url=%252Fimage%252Flocation.png&amp;w=640&amp;q=75p;w=640&amp;q=75 2x
-                    "
-                      src={location}
+                      srcSet={`${locationw256} 1x, ${locationw640} 2x`}
+                      src={locationw640}
                       width="250"
                       height="250"
                       decoding="async"
@@ -231,10 +235,8 @@ function Home() {
                         <div className="flex justify-center">
                           <img
                             alt="Bag"
-                            srcSet="
-                            _next/image?url=%252Fimage%252Fbag.png&amp;w=96&amp;q=75amp;q_next/image?url=%252Fimage%252Fbag.png&amp;w=256&amp;q=75p;w=256&amp;q=75 2x
-                          "
-                            src={bag}
+                            srcSet={`${bagw96} 1x, ${bagw256} 2x`}
+                            src={bagw256}
                             width="80"
                             height="80"
                             decoding="async"
@@ -255,10 +257,8 @@ function Home() {
                         <div className="flex justify-center">
                           <img
                             alt="Search"
-                            srcSet="
-                            _next/image?url=%252Fimage%252Fsearch.png&amp;w=96&amp;q=75amp;q_next/image?url=%252Fimage%252Fsearch.png&amp;w=256&amp;q=75p;w=256&amp;q=75 2x
-                          "
-                            src={search}
+                            srcSet={`${searchw96} 1x, ${searchw256} 2x`}
+                            src={searchw256}
                             width="80"
                             height="80"
                             decoding="async"
@@ -280,10 +280,8 @@ function Home() {
                         <div className="flex justify-center">
                           <img
                             alt="Arrow"
-                            srcSet="
-                            _next/image?url=%252Fimage%252Farrow.png&amp;w=96&amp;q=75amp;q_next/image?url=%252Fimage%252Farrow.png&amp;w=256&amp;q=75p;w=256&amp;q=75 2x
-                          "
-                            src={arrow}
+                            srcSet={`${arroww96} 1x, ${arroww256} 2x`}
+                            src={arroww256}
                             width="80"
                             height="80"
                             decoding="async"
@@ -304,10 +302,8 @@ function Home() {
                         <div className="flex justify-center">
                           <img
                             alt="Nots"
-                            srcSet="
-                            _next/image?url=%252Fimage%252Fnots.png&amp;w=96&amp;q=75amp;q_next/image?url=%252Fimage%252Fnots.png&amp;w=256&amp;q=75p;w=256&amp;q=75 2x
-                          "
-                            src={nots}
+                            srcSet={`${notsw96} 1x, ${notsw256} 2x`}
+                            src={notsw256}
                             width="80"
                             height="80"
                             decoding="async"

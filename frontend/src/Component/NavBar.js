@@ -1,4 +1,5 @@
-import logo from "../_next/logo.png";
+import logow384 from "../_next/logow384.png";
+import logow750 from "../_next/logow750.png";
 
 function NavBar() {
   return (
@@ -43,8 +44,8 @@ function NavBar() {
           <a href="/">
             <img
               alt="Logo"
-              srcSet="_next/image?url=%252Fimage%252Flogo.png&amp;w=384&amp;q=75amp;q_next/image?url=%252Fimage%252Flogo.png&amp;w=750&amp;q=75p;w=750&amp;q=75 2x"
-              src={logo}
+              srcSet={`${logow384} 1x, ${logow750} 2x`}
+              src={logow750}
               width="350"
               height="50"
               decoding="async"
