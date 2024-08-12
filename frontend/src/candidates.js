@@ -42,11 +42,11 @@ function Candidates() {
 
   const countSuccesses = async () => {
     let currentsuccess = 1;
-    const interval = (1.8 * 1000) / 29; // Total 1.8 seconds divided by 9 increments
+    const interval = (1.8 * 1000) / 79; // Total 1.8 seconds divided by 79 increments
 
     const timer = setInterval(() => {
       currentsuccess += 1;
-      if (currentsuccess > 30) {
+      if (currentsuccess > 80) {
         clearInterval(timer);
       } else {
         setSuccess(currentsuccess);
@@ -477,7 +477,7 @@ function Candidates() {
                     className="text-[#fca311] text-center text-6xl font-bold"
                     id="counter"
                   >
-                    <span>{successes}</span>
+                    <span>{successes}+</span>
                   </h1>
                 </div>
                 <h1 className="m-auto text-center text-white font-bold">

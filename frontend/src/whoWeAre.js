@@ -221,15 +221,18 @@ function WhoWeAre() {
                   </div>
                   <div className="md:mx-2">
                     <p className="p-4 border text-white border-t-transparent text-sm text-justify">
-                      Обладая обширным опытом подбора персонала в сфере
-                      производства продуктов питания и товаров повседневного
-                      спроса, Ильджас внимательно относится к деталям и будет
-                      сотрудничать с Сэмом, чтобы предоставить как существующим,
-                      так и новым клиентам лучшую в своем классе поддержку по
-                      инженерным, эксплуатационным, техническим и коммерческим
-                      дисциплинам как на постоянной, так и на временной основе
-                      (контракты). Построение отношений как с Клиентами, так и с
-                      Кандидатами – это то, к чему стремится Ильджас.
+                      Ильджас Хан — директор и основатель компании Magnet
+                      Recruit, специализирующейся на трудоустройстве
+                      русскоязычных специалистов в Великобритании. Свою карьеру
+                      он начал в сфере кадрового менеджмента, накопив
+                      значительный опыт в подборе персонала для международных
+                      компаний. Стремясь помочь кандидатам найти работу за
+                      границей, Ильджас создал Magnet Recruit, которая стала
+                      успешной благодаря его глубокому пониманию рынка и
+                      уникальному подходу к подбору кадров. В своей компании
+                      Ильджас лично курирует ключевые процессы, помогая
+                      русскоязычным специалистам найти подходящие вакансии и
+                      адаптироваться в Великобритании.
                     </p>
                   </div>
                   <div className="my-4 border md:border-none sm:mx-2">
@@ -241,8 +244,7 @@ function WhoWeAre() {
                     </div>
                     <div>
                       <p className="md:pr-40 md:py-5 md:pb-6 w-full p-4 border text-white border-t-transparent text-sm text-justify">
-                        “Когда вы ставите людей на первое место, все остальное
-                        встает на свои места”.
+                        “Мы находим таланты, которые ведут к успеху”.
                       </p>
                     </div>
                   </div>
@@ -306,13 +308,16 @@ function WhoWeAre() {
                   </div>
                   <div className="md:mx-2">
                     <p className="p-4 border text-white border-t-transparent text-sm text-justify">
-                      Имея большой опыт работы в области юриспруденции и работы
-                      с клиентами, Мария присоединилась к нашей команде, готовой
-                      начать захватывающее путешествие и потребность в новом
-                      вызове. С ее позитивным настроем и восторженным
-                      характером, она уже разработала отличную сеть в
-                      промышленность. Мария очень заботится о здоровье. коучинг
-                      по благополучию и образу жизни.
+                      Мария Смирнова — менеджер по трудоустройству в
+                      Великобритании в компании Magnet Recruit. Она начала
+                      карьеру в сфере HR, работая в различных кадровых
+                      агентствах, где развивала навыки подбора персонала и
+                      адаптации кандидатов. Опыт и успехи в этой области привели
+                      её в Magnet Recruit, где Мария занимается подбором и
+                      трудоустройством специалистов из-за рубежа. В компании она
+                      отвечает за весь процесс — от поиска кандидатов до их
+                      успешного трудоустройства и адаптации на новом месте
+                      работы в Великобритании.
                     </p>
                   </div>
                   <div className="my-4 border md:border-none sm:mx-2">
@@ -324,7 +329,7 @@ function WhoWeAre() {
                     </div>
                     <div>
                       <p className="md:pr-40 md:py-5 md:pb-6 w-full p-4 border text-white border-t-transparent text-sm text-justify">
-                        “Видение без действий — это мечта”.
+                        “Видение без действий — всего лишь мечта”.
                       </p>
                     </div>
                   </div>
@@ -388,12 +393,14 @@ function WhoWeAre() {
                   </div>
                   <div className="md:mx-2">
                     <p className="p-4 md:pb-9 border text-white border-t-transparent text-sm text-justify">
-                      Максим недавно присоединился к Magnet Recruit, чтобы
-                      возглавить административная часть бизнеса и управлять
-                      всеми учетами и выставлением счетов. Одновременно проводя
-                      его докторские исследования в области языков и наук
-                      человека , он заведует бэк-офисом и работает изнутри для
-                      внедрения систем организации.
+                      Максим Чернов — менеджер по трудоустройству в
+                      Великобритании в компании Magnet Recruit. Он начал карьеру
+                      в рекрутинге с младших позиций, постепенно набирая опыт в
+                      подборе персонала для различных отраслей. Присоединившись
+                      к Magnet Recruit, Максим быстро стал ключевым сотрудником,
+                      отвечающим за подбор и трудоустройство иностранных
+                      специалистов в Великобритании, включая организацию
+                      интервью и адаптацию на новом месте работы.
                     </p>
                   </div>
                   <div className="my-4 border md:border-none sm:mx-2">
@@ -405,7 +412,7 @@ function WhoWeAre() {
                     </div>
                     <div>
                       <p className="md:pr-40 md:py-5 md:pb-6 w-full p-4 border text-white border-t-transparent text-sm text-justify">
-                        “Всегда недообещайте и перевыполняйте”.
+                        “Обещайте меньше, делайте больше”.
                       </p>
                     </div>
                   </div>
@@ -631,22 +638,22 @@ function WhoWeAre() {
             </div>
             <div className="w-full p-4 md:hidden">
               <div className="px-2">
-                <h1 className="text-[#fca311] tracking-wider font-bold text-center capitalize">
+                <h1 className="text-[#fca311] tracking-wider font-bold capitalize">
                   01. Стратегическая консультация
                 </h1>
                 <div className="grid place-content-center py-2 border-t-[#fca311]">
-                  <h1 className="py-2 px-6 tracking-widest text-white text-justify text-sm">
+                  <h1 className="py-2 px-6 tracking-widest text-white text-sm">
                     Погрузиться в вашу компанию, культуру, ценности и роль
                     требования для полного понимания ваших надежд.
                   </h1>
                 </div>
               </div>
               <div className="px-2">
-                <h1 className="text-[#fca311] tracking-wider font-bold text-center capitalize">
+                <h1 className="text-[#fca311] tracking-wider font-bold capitalize">
                   02. Целевое ресурсное обеспечение
                 </h1>
                 <div className="grid place-content-center py-2 border-t-[#fca311]">
-                  <h1 className="py-2 px-6 tracking-widest text-white text-justify text-sm">
+                  <h1 className="py-2 px-6 tracking-widest text-white text-sm">
                     Обратитесь к нашим консультантам; понимание отрасли,
                     осведомленность о наличие кандидатов и обширная сеть для
                     того чтобы тщательно подобрать наиболее подходящие профили.
@@ -654,11 +661,11 @@ function WhoWeAre() {
                 </div>
               </div>
               <div className="px-2">
-                <h1 className="text-[#fca311] tracking-wider font-bold text-center capitalize">
+                <h1 className="text-[#fca311] tracking-wider font-bold capitalize">
                   03. Тщательная оценка
                 </h1>
                 <div className="grid place-content-center py-2 border-t-[#fca311]">
-                  <h1 className="py-2 px-6 tracking-widest text-white text-justify text-sm">
+                  <h1 className="py-2 px-6 tracking-widest text-white text-sm">
                     Тщательно проанализировать, составить короткий список и
                     представить наиболее актуальных кандидатов, упрощая путь к
                     этапу собеседования.
@@ -666,11 +673,11 @@ function WhoWeAre() {
                 </div>
               </div>
               <div className="px-2">
-                <h1 className="text-[#fca311] tracking-wider font-bold text-center capitalize">
+                <h1 className="text-[#fca311] tracking-wider font-bold capitalize">
                   04. Бесшовная обработка
                 </h1>
                 <div className="grid place-content-center py-2 border-t-[#fca311]">
-                  <h1 className="py-2 px-6 tracking-widest text-white text-justify text-sm">
+                  <h1 className="py-2 px-6 tracking-widest text-white text-sm">
                     После собеседования мы берем на себя весь процесс - от
                     отзывов и предложений до ссылок. Мы займемся тонкостями,
                     освобождая ваше время, чтобы сосредоточиться на предметах
