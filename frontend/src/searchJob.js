@@ -88,7 +88,7 @@ function SearchJob() {
                     <a
                       type="submit"
                       className="shadow- flex my-4 px-4 p-2 rounded-sm hover:bg-[#fca311] hover:text-white uppercase bg-slate-200 shadow-slate-400 shadow-lg"
-                      href="https://t.me/magnetuk"
+                      href="https://t.me/+_QmTkgJcIMQ1MGUy"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -12,7 +12,8 @@ function Footer() {
         <div className="pt-10 md:w-[1240px] px-4 md:px-auto mx-auto">
           <img
             alt="Logo"
-            srcSet={`${logow640} 1x, ${logow828} 2x`}
+            srcSet={`${logow640} 640w, ${logow828} 828w`}
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
             src={logow828}
             width="400"
             height="80"
@@ -119,7 +120,7 @@ function Footer() {
                 <a
                   type="submit"
                   className="flex rounded-sm hover:bg-[#fca311] hover:text-white foot-pad"
-                  href="https://t.me/magnetuk"
+                  href="https://t.me/+_QmTkgJcIMQ1MGUy"
                 >
                   Перейти в телеграм
                 </a>

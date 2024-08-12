@@ -604,7 +604,7 @@ function Candidates() {
               <a
                 type="submit"
                 className="flex my-10 px-4 p-2 rounded-sm hover:bg-[#fca311] hover:text-white bg-slate-200"
-                href="https://t.me/magnetuk"
+                href="https://t.me/+_QmTkgJcIMQ1MGUy"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

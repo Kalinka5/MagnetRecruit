@@ -1285,7 +1285,7 @@ body {
   transform: rotateX(180deg) rotateY(180deg);
 }
 #candidatesvgbottom {
-  height: 110px;
+  height: 109px;
 }
 #candidatesvgmanhandshake {
   width: calc(100% + 1.3px);
