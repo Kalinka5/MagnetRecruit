@@ -170,17 +170,17 @@ function Footer() {
         </div>
         <div className="mt-12 flex justify-center text-white">
           <ul className="md:flex grid md:justify-between md:gap-14 text-center">
-            <a href="Component/PravicyPolicy">
+            <a href="pravicy-policy">
               <li className="md:py-2 hover:text-[#fca311] text-sm">
                 Политика Конфиденциальности
               </li>
             </a>
-            <a href="Component/CookiePolicy">
+            <a href="cookie-policy">
               <li className="md:py-2 hover:text-[#fca311] text-sm">
                 Политика использования файлов cookie
               </li>
             </a>
-            <a href="Component/RetentionPolicy">
+            <a href="retention-policy">
               <li className="md:py-2 hover:text-[#fca311] text-sm">
                 Политика удержания
               </li>

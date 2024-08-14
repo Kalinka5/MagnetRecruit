@@ -97,7 +97,7 @@ function Clients() {
                     className="text-3xl my-4 text-center text-[#fca311] cursor-pointer flex hover:text-[#14213d] uppercase p-4 border shadow-xl h1-center"
                     onClick={handleClick1}
                   >
-                    ВРЕМЕН
+                    ЗНАНИЯ
                     <svg
                       stroke="currentColor"
                       fill="currentColor"

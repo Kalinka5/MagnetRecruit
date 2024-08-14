@@ -11,6 +11,9 @@ import Clients from "./clients";
 import Candidates from "./candidates";
 import SearchJob from "./searchJob";
 import ContactUs from "./contactUs";
+import CookiePolicy from "./CookiePolicy";
+import PravicyPolicy from "./PravicyPolicy";
+import RetentionPolicy from "./RetentionPolicy";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
             <Route path="candidates" element={<Candidates />} />
             <Route path="search-job" element={<SearchJob />} />
             <Route path="contact-us" element={<ContactUs />} />
+            <Route path="cookie-policy" element={<CookiePolicy />} />
+            <Route path="pravicy-policy" element={<PravicyPolicy />} />
+            <Route path="retention-policy" element={<RetentionPolicy />} />
             <Route path="*" element={<Navigate to="" replace />} />
           </Routes>
         </main>
