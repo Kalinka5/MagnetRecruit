@@ -190,17 +190,24 @@ function WhoWeAre() {
               </div>
               <div className="item-center mt-20">
                 <div className="flex justify-center mx-auto">
-                  <img
-                    alt="Human3"
-                    srcSet={`${human3w256} 1x, ${human3w640} 2x`}
-                    src={human3w256}
-                    width="250"
-                    height="200"
-                    decoding="async"
-                    data-nimg="1"
-                    loading="lazy"
-                    style={{ color: "transparent" }}
-                  />
+                  <a href="https://t.me/Maria_MagnetLTD" className="img-link">
+                    {" "}
+                    <img
+                      alt="Human3"
+                      srcSet={`${human3w256} 1x, ${human3w640} 2x`}
+                      src={human3w256}
+                      width="250"
+                      height="200"
+                      decoding="async"
+                      data-nimg="1"
+                      loading="lazy"
+                      style={{ color: "transparent" }}
+                    />
+                    <div className="content">
+                      <h1>Перейти в телеграм</h1>
+                      <p>К пользователю Maria_MagnetLTD</p>
+                    </div>
+                  </a>
                 </div>
                 <h1 className="text-[#fca214] text-2xl text-center font-semibold px-4 pt-3">
                   Мария Смирнова
@@ -275,17 +282,24 @@ function WhoWeAre() {
               </div>
               <div className="item-center mt-20">
                 <div className="flex justify-center mx-auto">
-                  <img
-                    alt="Human4"
-                    srcSet={`${human4w256} 1x, ${human4w640} 2x`}
-                    src={human4w256}
-                    width="250"
-                    height="200"
-                    decoding="async"
-                    data-nimg="1"
-                    loading="lazy"
-                    style={{ color: "transparent" }}
-                  />
+                  <a href="https://t.me/MaximMagnet" className="img-link">
+                    {" "}
+                    <img
+                      alt="Human4"
+                      srcSet={`${human4w256} 1x, ${human4w640} 2x`}
+                      src={human4w256}
+                      width="250"
+                      height="200"
+                      decoding="async"
+                      data-nimg="1"
+                      loading="lazy"
+                      style={{ color: "transparent" }}
+                    />
+                    <div className="content">
+                      <h1>Перейти в телеграм</h1>
+                      <p>К пользователю MaximMagnet</p>
+                    </div>
+                  </a>
                 </div>
                 <h1 className="text-[#fca214] text-2xl text-center font-semibold px-4 pt-3">
                   Максим Чернов

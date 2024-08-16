@@ -122,7 +122,7 @@ function Footer() {
                   className="flex rounded-sm hover:bg-[#fca311] hover:text-white foot-pad"
                   href="https://t.me/+_QmTkgJcIMQ1MGUy"
                 >
-                  Перейти в телеграм
+                  Перейти в Telegram
                 </a>
               </div>
             </div>

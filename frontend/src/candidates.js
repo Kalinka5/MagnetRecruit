@@ -634,7 +634,7 @@ function Candidates() {
                     </g>
                   </g>
                 </svg>
-                Перейти в телеграм
+                Перейти в Telegram
               </a>
             </div>
           </div>
