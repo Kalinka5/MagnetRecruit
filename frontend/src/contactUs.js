@@ -85,7 +85,7 @@ function ContactUs() {
                       </svg>
                     </div>
                     <h1 className="py-4 block tracking-widest uppercase px-2 text-xs w-full text-white">
-                      69-71 Lever Street, Manchester M1 1FL
+                      04 Westdale Gardens, Manchester M19 1JD
                     </h1>
                   </div>
                   <div className="flex gap-8 py-2">
@@ -165,7 +165,7 @@ function ContactUs() {
                     </div>
                     <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1946800022%3A1668448922110746&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;ifkv=ARgdvAtpIClW3LwyU3UBQE-GG7HNFTGaMg55GE_WuAYvER76vZ1cm9dhPrHSC-92QoQOi-lxnSb5">
                       <h1 className="cursor-pointer text-xs px-2 text-white tracking-widest py-4">
-                        INFO@MAGNETRECRUIT.COM
+                        MAGNETRECRUITSNG@GMAIL.COM
                       </h1>
                     </a>
                   </div>
@@ -196,7 +196,7 @@ function ContactUs() {
                       defaultValue=""
                     />
                     <p className="text-white pt-4">
-                      Имя <span className="text-red-700">*</span>
+                      ФИО <span className="text-red-700">*</span>
                     </p>
                     <input
                       type="name"
@@ -206,7 +206,7 @@ function ContactUs() {
                       defaultValue=""
                     />
                     <p className="text-white pt-4">
-                      Фамилия <span className="text-red-700">*</span>
+                      Гражданство <span className="text-red-700">*</span>
                     </p>
                     <input
                       type="name"
@@ -216,17 +216,16 @@ function ContactUs() {
                       defaultValue=""
                     />
                     <p className="text-white pt-4">
-                      Сообщение <span className="text-red-700">*</span>
+                      Telegram или WhatsApp{" "}
+                      <span className="text-red-700">*</span>
                     </p>
-                    <div className="w-full">
-                      <textarea
-                        name=""
-                        id=""
-                        cols="38"
-                        rows="5"
-                        required=""
-                      ></textarea>
-                    </div>
+                    <input
+                      type="name"
+                      className="md:w-[400px] w-full h-2 py-4"
+                      placeholder=""
+                      required=""
+                      defaultValue=""
+                    />
                     <div className="flex justify-center md:justify-start mx-auto py-4">
                       <button
                         type="submit"

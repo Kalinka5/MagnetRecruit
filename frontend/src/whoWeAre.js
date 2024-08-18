@@ -89,7 +89,7 @@ function WhoWeAre() {
                   />
                 </div>
                 <h1 className="text-[#fca214] text-2xl text-center font-semibold px-4 pt-3">
-                  Сэм Хасан
+                  Сэм Хассан
                 </h1>
                 <p className="text-white px-12 text-center font-semibold">
                   Основатель
@@ -144,7 +144,7 @@ function WhoWeAre() {
                   />
                 </div>
                 <h1 className="text-[#fca214] text-2xl text-center font-semibold px-4 pt-3">
-                  Самер Хасан
+                  Самер Хассан
                 </h1>
                 <p className="text-white px-12 text-center font-semibold">
                   Директор
@@ -159,7 +159,7 @@ function WhoWeAre() {
                   </div>
                   <div className="md:mx-2">
                     <p className="p-4 border text-white border-t-transparent text-sm text-justify">
-                      Самер Хасан — директор и основатель компании Magnet
+                      Самер Хассан — директор и основатель компании Magnet
                       Recruit, специализирующейся на трудоустройстве
                       русскоязычных специалистов в Великобритании. Свою карьеру
                       он начал в сфере кадрового менеджмента, накопив
@@ -204,7 +204,7 @@ function WhoWeAre() {
                       style={{ color: "transparent" }}
                     />
                     <div className="content">
-                      <h1>Перейти в телеграм</h1>
+                      <h1>Перейти в Telegram</h1>
                       <p>К пользователю Maria_MagnetLTD</p>
                     </div>
                   </a>
@@ -296,7 +296,7 @@ function WhoWeAre() {
                       style={{ color: "transparent" }}
                     />
                     <div className="content">
-                      <h1>Перейти в телеграм</h1>
+                      <h1>Перейти в Telegram</h1>
                       <p>К пользователю MaximMagnet</p>
                     </div>
                   </a>

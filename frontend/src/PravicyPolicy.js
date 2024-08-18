@@ -31,7 +31,7 @@ function PravicyPolicy() {
                       </g>
                     </g>
                   </svg>
-                  69-71 Lever Street, Manchester M1 1FL
+                  04 Westdale Gardens, Manchester M19 1JD
                 </h1>
                 <p className="flex gap-2">
                   <svg
@@ -67,7 +67,7 @@ function PravicyPolicy() {
                     </g>
                   </svg>
                   <a href="https://magnetrecruit.com/Component/info@magnetrectuit.com">
-                    <p>info@magnetrectuit.com</p>
+                    <p>magnetrecruitsng@gmail.com</p>
                   </a>
                 </div>
                 <h1 className="py-4 uppercase text-2xl">

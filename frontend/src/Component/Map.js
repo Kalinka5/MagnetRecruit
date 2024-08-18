@@ -7,8 +7,8 @@ import "maplibre-gl/dist/maplibre-gl.css";
 const MapComponent = () => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng] = useState(-2.232595);
-  const [lat] = useState(53.48367);
+  const [lng] = useState(-2.1952951);
+  const [lat] = useState(53.4287932);
   const [zoom] = useState(15);
   const [API_KEY] = useState("BkITIvBamUw37fC9V8cW");
 

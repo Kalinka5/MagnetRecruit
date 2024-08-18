@@ -48,7 +48,7 @@ function Footer() {
                   ></path>
                 </svg>
                 <p className="text-white text-xs tracking-widest py-2 ml-4 cursor-pointer">
-                  69-71 Lever Street, Manchester M1 1FL
+                  04 Westdale Gardens, Manchester M19 1JD
                 </p>
               </div>
               <div className="flex m-auto text-white px-2 md:px-0 py-2 items-center">
