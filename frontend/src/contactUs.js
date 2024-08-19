@@ -1,9 +1,35 @@
+import React, { useState } from "react";
+
+import emailjs from "@emailjs/browser";
+
 import candidates from "./bg/candidates.gif";
 
 import NavBar from "./Component/NavBar";
 import Footer from "./Component/Footer";
 
 function ContactUs() {
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [name, setName] = useState("");
+  const [nationality, setNationality] = useState("");
+  const [telegram, setTelegram] = useState("");
+
+  const sendEmail = async (e) => {
+    e.preventDefault();
+
+    try {
+      emailjs.sendForm(
+        "service_ag2wrue",
+        "template_rx3r89w",
+        e.target,
+        "tKwGaXHU-P-HsC77h"
+      );
+      console.log("Email sent successfully");
+    } catch (error) {
+      console.error("Error sending email:", error);
+    }
+  };
+
   return (
     <div className="clients">
       <div id="__next">
@@ -174,7 +200,7 @@ function ContactUs() {
                   <h1 className="md:text-xl p-6 md:text-left text-center text-sm text-[#fca311] font-bold">
                     ОТПРАВИТЬ ЗАПРОС
                   </h1>
-                  <form className="sm:mx-14 md:px-8">
+                  <form className="sm:mx-14 md:px-8" onSubmit={sendEmail}>
                     <p className="text-white pt-4">
                       Е-мейл <span className="text-red-700">*</span>
                     </p>
@@ -183,7 +209,10 @@ function ContactUs() {
                       className="md:w-[600px] w-full h-2 py-4"
                       placeholder=""
                       required=""
-                      defaultValue=""
+                      name="email"
+                      id="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                     <p className="text-white pt-4">
                       Телефон <span className="text-red-700">*</span>
@@ -193,7 +222,10 @@ function ContactUs() {
                       className="md:w-[600px] w-full h-2 py-4"
                       placeholder=""
                       required=""
-                      defaultValue=""
+                      name="phoneNumber"
+                      id="phoneNumber"
+                      value={phoneNumber}
+                      onChange={(e) => setPhoneNumber(e.target.value)}
                     />
                     <p className="text-white pt-4">
                       ФИО <span className="text-red-700">*</span>
@@ -203,7 +235,10 @@ function ContactUs() {
                       className="md:w-[400px] w-full h-2 py-4"
                       placeholder=""
                       required=""
-                      defaultValue=""
+                      name="name"
+                      id="name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     />
                     <p className="text-white pt-4">
                       Гражданство <span className="text-red-700">*</span>
@@ -213,7 +248,10 @@ function ContactUs() {
                       className="md:w-[400px] w-full h-2 py-4"
                       placeholder=""
                       required=""
-                      defaultValue=""
+                      name="nationality"
+                      id="nationality"
+                      value={nationality}
+                      onChange={(e) => setNationality(e.target.value)}
                     />
                     <p className="text-white pt-4">
                       Telegram или WhatsApp{" "}
@@ -224,7 +262,10 @@ function ContactUs() {
                       className="md:w-[400px] w-full h-2 py-4"
                       placeholder=""
                       required=""
-                      defaultValue=""
+                      name="telegram"
+                      id="telegram"
+                      value={telegram}
+                      onChange={(e) => setTelegram(e.target.value)}
                     />
                     <div className="flex justify-center md:justify-start mx-auto py-4">
                       <button
