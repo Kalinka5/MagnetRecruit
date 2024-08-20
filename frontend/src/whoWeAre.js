@@ -190,7 +190,7 @@ function WhoWeAre() {
               </div>
               <div className="item-center mt-20">
                 <div className="flex justify-center mx-auto">
-                  <a href="https://t.me/Maria_MagnetLTD" className="img-link">
+                  <a href="https://t.me/MariyaMagnet_LTD" className="img-link">
                     {" "}
                     <img
                       alt="Human3"
@@ -216,7 +216,7 @@ function WhoWeAre() {
                   Менеджер по работе с клиентами
                 </p>
                 <div className="flex gap-2 cursor-pointer justify-center py-2 text-slate-800">
-                  <a href="https://t.me/Maria_MagnetLTD">
+                  <a href="https://t.me/MariyaMagnet_LTD">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"

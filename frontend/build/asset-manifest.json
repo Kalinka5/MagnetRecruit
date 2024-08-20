@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.baabe330.css",
-    "main.js": "/static/js/main.dea72944.js",
+    "main.css": "/static/css/main.326eb2c7.css",
+    "main.js": "/static/js/main.5afd7409.js",
     "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
     "static/media/candidates.gif": "/static/media/candidates.fffaa8bcae3d360b9cd3.gif",
     "static/media/client.gif": "/static/media/client.44c429483982fc9a85ae.gif",
@@ -18,6 +18,7 @@
     "static/media/human2w256.png": "/static/media/human2w256.40f112311001622d6183.png",
     "static/media/human4w256.png": "/static/media/human4w256.ae2f4f4c1b0fcc20074e.png",
     "static/media/human1w256.png": "/static/media/human1w256.2be9afc1471cc30452ca.png",
+    "static/media/magnet-reviews.png": "/static/media/magnet-reviews.0c45b6a3eabaad1bfa48.png",
     "static/media/brand2.png": "/static/media/brand2.9ae5e5874b5909b2b3e5.png",
     "static/media/brand3.png": "/static/media/brand3.834b4caaf882d74c3445.png",
     "static/media/brand5.png": "/static/media/brand5.b9a2ae93e2601b1235a4.png",
@@ -29,6 +30,7 @@
     "static/media/chairsw640.JPG": "/static/media/chairsw640.7a51fb988b84ad4d237a.JPG",
     "static/media/chairsw828.JPG": "/static/media/chairsw828.7a51fb988b84ad4d237a.JPG",
     "static/media/brand6.png": "/static/media/brand6.afc7173879aea25f578f.png",
+    "static/media/magnet-licensy.png": "/static/media/magnet-licensy.b2bf06303a458f488af5.png",
     "static/media/logow828.png": "/static/media/logow828.4dcc1d0855bebbff5b89.png",
     "static/media/slick.f895cfdf.svg": "/static/media/slick.f895cfdf.2630a3e3eab21c607e21.svg",
     "static/media/slick.25572f22.eot?": "/static/media/slick.25572f22.a4e97f5a2a64f0ab1323.eot",
@@ -36,12 +38,12 @@
     "static/media/slick.653a4cbb.woff": "/static/media/slick.653a4cbb.295183786cd8a1389865.woff",
     "static/media/downarrow.svg": "/static/media/downarrow.012cee3d27e41b2ef683c909f401d4dc.svg",
     "index.html": "/index.html",
-    "main.baabe330.css.map": "/static/css/main.baabe330.css.map",
-    "main.dea72944.js.map": "/static/js/main.dea72944.js.map",
+    "main.326eb2c7.css.map": "/static/css/main.326eb2c7.css.map",
+    "main.5afd7409.js.map": "/static/js/main.5afd7409.js.map",
     "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.baabe330.css",
-    "static/js/main.dea72944.js"
+    "static/css/main.326eb2c7.css",
+    "static/js/main.5afd7409.js"
   ]
 }

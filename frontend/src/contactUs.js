@@ -7,6 +7,8 @@ import candidates from "./bg/candidates.gif";
 import NavBar from "./Component/NavBar";
 import Footer from "./Component/Footer";
 
+import "./_next/static/css/ContactUs.css";
+
 function ContactUs() {
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -194,6 +196,44 @@ function ContactUs() {
                         MAGNETRECRUITSNG@GMAIL.COM
                       </h1>
                     </a>
+                  </div>
+                  <div className="flex justify-between gap-8 py-2">
+                    <h1 className="text-xs px-2 text-white tracking-widest py-4">
+                      Резервные аккаунты Марии:
+                    </h1>
+                    <div className="flex text-[#fca311]">
+                      <a
+                        href="https://t.me/Maria_MagnetLTD"
+                        className="rezerv-btn"
+                      >
+                        Резерв1
+                      </a>
+                      <a
+                        href="https://t.me/MariyaMagnetLTD"
+                        className="rezerv-btn"
+                      >
+                        Резерв2
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex justify-between gap-8 py-2">
+                    <h1 className="text-xs px-2 text-white tracking-widest py-4">
+                      Резервные аккаунты Максима:
+                    </h1>
+                    <div className="flex text-[#fca311]">
+                      <a
+                        href="https://t.me/Maxim_Magnet"
+                        className="rezerv-btn"
+                      >
+                        Резерв1
+                      </a>
+                      <a
+                        href="https://t.me/MaximMagnetUK"
+                        className="rezerv-btn"
+                      >
+                        Резерв2
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div className="basis-1/2">

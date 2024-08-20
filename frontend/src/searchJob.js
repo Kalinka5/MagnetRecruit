@@ -1,6 +1,7 @@
 import whoweare from "./bg/whoweare.gif";
 
 import NavBar from "./Component/NavBar";
+import CompanyInfo from "./Component/CompanyInfo";
 import Footer from "./Component/Footer";
 
 function SearchJob() {
@@ -69,7 +70,8 @@ function SearchJob() {
               </svg>
             </div>
             <div className="py-16"></div>
-            <div className="md:pt-24 md:px-16 md:py-5 md:my-[3rem] md:my-5 mx-auto px-4 md:mx-0 md:col-span-2 md:grid md:gap-1 md:grid-auto-rows-max overflow-y-auto">
+            <CompanyInfo />
+            <div className="md:px-16 md:py-5 mx-auto px-4 md:mx-0 md:col-span-2 md:grid md:gap-1 md:grid-auto-rows-max overflow-y-auto">
               <div className="md:mx-48 m-4 border-[#14213d] border rounded-3xl md:p-12 p-6">
                 <p className="text-xl text-justify">
                   В Magnet Recruit мы уделяем особое внимание
