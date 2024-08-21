@@ -7,10 +7,10 @@
   vertical-align: middle;
   border: 3px solid rgb(252 163 17 / var(--tw-text-opacity));
   background-color: white;
-  padding: 3px 12px;
-  margin: auto 10px;
-  font-size: 18px;
-  height: 38px;
+  font-size: 14px;
+  height: 34px;
+  margin: auto 8px;
+  padding: 3px 5px;
   cursor: pointer;
   border-color: rgb(252 163 17 / var(--tw-text-opacity));
   color: rgb(252 163 17 / var(--tw-text-opacity));
