@@ -18,6 +18,14 @@ function ContactUs() {
   const [nationality, setNationality] = useState("");
   const [telegram, setTelegram] = useState("");
 
+  const clearFields = () => {
+    setEmail("");
+    setPhoneNumber("");
+    setName("");
+    setNationality("");
+    setTelegram("");
+  };
+
   const sendEmail = async (e) => {
     e.preventDefault();
 
@@ -34,6 +42,7 @@ function ContactUs() {
         "Ваш запрос уже отправлен к нам на почту.",
         "success"
       );
+      clearFields();
     } catch (error) {
       console.error("Error sending email:", error);
       Swal.fire("Ошибка!", "Что-то пошло не так...", "error");
@@ -206,7 +215,7 @@ function ContactUs() {
                     </a>
                   </div>
                   <div className="flex justify-between gap-8 py-2">
-                    <h1 className="text-xs px-2 text-white tracking-widest py-4">
+                    <h1 className="text-sm px-2 text-white tracking-widest py-4">
                       Резервные аккаунты Марии:
                     </h1>
                     <div className="flex text-[#fca311]">
@@ -225,7 +234,7 @@ function ContactUs() {
                     </div>
                   </div>
                   <div className="flex justify-between gap-8 py-2">
-                    <h1 className="text-xs px-2 text-white tracking-widest py-4">
+                    <h1 className="text-sm px-2 text-white tracking-widest py-4">
                       Резервные аккаунты Максима:
                     </h1>
                     <div className="flex text-[#fca311]">
