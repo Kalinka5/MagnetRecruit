@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import Swal from "sweetalert2";
+
 import emailjs from "@emailjs/browser";
 
 import candidates from "./bg/candidates.gif";
@@ -27,8 +29,14 @@ function ContactUs() {
         "tKwGaXHU-P-HsC77h"
       );
       console.log("Email sent successfully");
+      Swal.fire(
+        "Успешно!",
+        "Ваш запрос уже отправлен к нам на почту.",
+        "success"
+      );
     } catch (error) {
       console.error("Error sending email:", error);
+      Swal.fire("Ошибка!", "Что-то пошло не так...", "error");
     }
   };
 
